@@ -13,7 +13,6 @@
     (main/info "Generating fresh 'lein new' axiom-clj project.")
     (->files data
              ["./.gitignore" (render ".gitignore" data)]
-             ["./axiom.log" (render "axiom.log" data)]
              ["./CHANGELOG.md" (render "CHANGELOG.md" data)]
              ["./doc/intro.md" (render "intro.md" data)]
              ["./docker-compose.yml" (render "docker-compose.yml" data)]
