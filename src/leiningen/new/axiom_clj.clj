@@ -9,7 +9,7 @@
   [name]
   (let [data {:name name
               :sanitized (name-to-path name)
-              :axiom-ver "0.3.0"}]
+              :axiom-ver "0.3.1"}]
     (main/info "Generating fresh 'lein new' axiom-clj project.")
     (->files data
              ["./.gitignore" (render ".gitignore" data)]
