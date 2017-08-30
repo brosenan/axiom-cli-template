@@ -1,4 +1,4 @@
-(defproject axiom-clj/lein-template "0.1.1"
+(defproject axiom-clj/lein-template "0.1.2"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
